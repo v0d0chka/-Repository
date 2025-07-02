@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "25022025group"
+version = "0.1.0"
+description = "my project"
+authors = ["vasylkartychak <w.i.k.mailua@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytest = "^8.3.5"
+flake8 = "^7.1.2"
+isort = "^6.0.1"
+black = "^25.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

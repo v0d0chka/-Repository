@@ -1,3 +1,0 @@
-[flake8]
-exclude = .venv, env.py
-max-line-length = 120
